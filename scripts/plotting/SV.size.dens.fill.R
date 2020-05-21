@@ -4,7 +4,7 @@ library(dplyr)
 
 # set path to bed file to be plotted (for madditional callsets add more lines to match number of callsets)
 input.file = "testdata/inv.calls.bed"
-input.file.melted = "testdata/inv.calls.bed"
+input.file.melted = "testdata/inv.calls.melted.txt"
 
 # set titles, subtitles, axis, scales etc.
 plot.title = "Inversion size distribution"
