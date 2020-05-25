@@ -1,4 +1,4 @@
-# load required packages
+# load required package
 library(ggplot2)
 library(dplyr)
 
