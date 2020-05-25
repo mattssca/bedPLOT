@@ -23,7 +23,7 @@ SV.calls[,namevector] <- callset.name
 
 ########################################################plotting########################################################
 
-inv_plot_box = ggplot(SV.calls, aes(V5, V4, fill = V5)) +
+SV.size.box = ggplot(SV.calls, aes(V5, V4, fill = V5)) +
   geom_boxplot(alpha = 0.7, fill = dataset1.colour) +
   labs(title = plot.title, subtitle = plot.subtitle, x = "", y = y.axis.name) +
   theme(legend.position = "none") +
