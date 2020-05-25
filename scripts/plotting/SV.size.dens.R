@@ -4,7 +4,6 @@ library(dplyr)
 
 # set path to bed file to be plotted (for madditional callsets add more lines to match number of callsets)
 input.file = "testdata/inv.calls.bed"
-input.file.melted = "testdata/inv.calls.melted.txt"
 
 # set titles, subtitles, axis, scales etc.
 plot.title = "Inversion size distribution"
@@ -15,7 +14,7 @@ y.axis.name = "Density"
 # define colours for fill (if more than two datasets are to be plotted, add more colours accordingly)
 dataset1.colour = "#CA8BAB"
 
-# read SV callset into R data frame
+# read SV callset into R data frame (skips first Header line)
 SV.calls = read.table(file = input.file, header = FALSE, sep = "\t", skip = 1)
 
 ########################################################plotting########################################################
