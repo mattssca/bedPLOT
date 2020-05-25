@@ -27,8 +27,8 @@ SV.calls$V1 = as.factor(SV.calls$V1)
 
 ########################################################plotting########################################################
 
-vplot <- ggplot(SV.calls, aes(x = V5, y = V4, fill = V5)) + 
-  stat_summary(fun = mean, geom = "point", shape = 23, size = 3) +
+SV.size.violine = ggplot(SV.calls, aes(x = V5, y = V4, fill = V5)) + 
+  stat_summary(fun = mean, geom = "point", shape = 20, size = 3) +
   labs(title = plot.title, subtitle = plot.subtitle, x = "", y = y.axis.name, fill = "Data" ) +
   theme(legend.position = "none") +
-  geom_violin(trim = FALSE, scale = "width", draw_quantiles = c(0.25, 0.5, 0.75), fill = dataset1.colour)
+  geom_violin(trim = FALSE, scale = "width", draw_quantiles = c(0.25, 0.5, 0.75), alpha = 0.7, fill = dataset1.colour)
