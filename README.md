@@ -23,4 +23,7 @@ Script `SV.size.violine.R` plots SV size distribution as a un-trimmed violine pl
 
 ![SV.size.violine.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.size.violine.R.png)
 
+### 04 - Ideogram
+Script `SV.ideogram.R` takes a bed file, converts it intoa G-range R object and plots SVs along coresponding coordinates for each chromosome.
 
+![SV.ideogram.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.ideogram.R.png)
