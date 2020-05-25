@@ -21,6 +21,6 @@ Script `SV.size.box.R` plots the size distributions of SVs pressent in input bed
 ###03 - Size distribution violine plot
 Script `SV.size.violine.R` plots SV size distribution as a un-trimmed violine plot, annotating quantiles as well as SV size density.
 
-![SV.size.violine.R]()
+![SV.size.violine.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.size.violin.R.png)
 
 
