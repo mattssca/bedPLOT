@@ -37,3 +37,8 @@ Script `SV.summary.table.R` melts multiple bed files, adding callset variable an
 Script `SV.venn.R` takes two (or more dataset) and plots overlapping SV calls as a scaled venn diagram.
 
 ![SV.venn.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.venn.R.png)
+
+### 07 - SV chromosome distribution
+Script `SV.chrdist.box.R` takes one (or more datasets) bed file, counts the total number of SV per chromosome and outputs a histogram
+
+![SV.chrdist.box.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.chrdist.box.R.png)
