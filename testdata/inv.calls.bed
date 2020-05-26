@@ -1,4 +1,4 @@
-track name="invPLOT.example.data" description="invPLOT.example.data" color=97,21,173
+track name="invPLOT.example.dataset1" description="invPLOT.example.dataset1" color=97,21,173
 chr1	248371217	248546654	175437
 chr1	108223654	108470365	246711
 chr1	16522269	16951299	429030
