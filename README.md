@@ -32,3 +32,8 @@ Script `SV.ideogram.R` takes a bed file, converts it intoa G-range R object and 
 Script `SV.summary.table.R` melts multiple bed files, adding callset variable and outputs summary statistics for SV sizes.
 
 ![SV.summary.table.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.summary.table.R.png)
+
+### 06 - Venn diagram
+Script `SV.venn.R` takes two (or more dataset) and plots overlapping SV calls as a scaled venn diagram.
+
+![SV.venn.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.venn.R.png)
