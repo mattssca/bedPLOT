@@ -35,6 +35,10 @@ namevector <- c("V3")
 SV.calls.1[,namevector] <- callset.name.1
 SV.calls.2[,namevector] <- callset.name.2
 
+# remove duplicate chr rows
+SV.calls.1 = distinct(SV.calls.1, V1, .keep_all = TRUE)
+SV.calls.2 = distinct(SV.calls.2, V1, .keep_all = TRUE)
+
 # melt dataframes into one
 SV.calls.melted.count = rbind(SV.calls.1, SV.calls.2)
 
