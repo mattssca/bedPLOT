@@ -23,29 +23,27 @@ Script `SV.size.violine.R` plots SV size distribution as a un-trimmed violine pl
 
 ![SV.size.violine.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.size.violine.R.png)
 
-### 04 - Ideogram
-Script `SV.ideogram.R` takes a bed file, converts it intoa G-range R object and plots SVs along coresponding coordinates for each chromosome.
-
-![SV.ideogram.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.ideogram.R.png)
-
-### 05 - SV Summary table
-Script `SV.summary.table.R` melts multiple bed files, adding callset variable and outputs summary statistics for SV sizes.
-
-![SV.summary.table.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.summary.table.R.png)
-
-### 06 - Venn diagram
-Script `SV.venn.R` takes two (or more dataset) and plots overlapping SV calls as a scaled venn diagram.
-
-![SV.venn.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.venn.R.png)
-
-### 07 - SV chromosome distribution
-Script `SV.chrdist.box.R` takes one (or more datasets) bed file, counts the total number of SV per chromosome and outputs a histogram.
-
-![SV.chrdist.box.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.chrdist.box.R.png)
-
-### 08 - Binned SV size
+### 04 - Binned SV size
 Script `SV.binned.seze.R` takes a bed file and sorts annotated events according to fixed bins (with defined size).
 
 ![SV.binned.size.R](https://github.com/mattssca/bedPLOT/blob/master/example_figures/SV.binned.size.dist.R.png)
 
+### 05 - Ideogram
+Script `SV.ideogram.R` takes a bed file, converts it intoa G-range R object and plots SVs along coresponding coordinates for each chromosome.
 
+![SV.ideogram.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.ideogram.R.png)
+
+### 06 - SV Summary table
+Script `SV.summary.table.R` melts multiple bed files, adding callset variable and outputs summary statistics for SV sizes.
+
+![SV.summary.table.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.summary.table.R.png)
+
+### 07 - Venn diagram
+Script `SV.venn.R` takes two (or more dataset) and plots overlapping SV calls as a scaled venn diagram.
+
+![SV.venn.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.venn.R.png)
+
+### 08 - SV chromosome distribution
+Script `SV.chrdist.box.R` takes one (or more datasets) bed file, counts the total number of SV per chromosome and outputs a histogram.
+
+![SV.chrdist.box.R](https://github.com/mattsada/invPLOT/blob/master/example_figures/SV.chrdist.box.R.png)
