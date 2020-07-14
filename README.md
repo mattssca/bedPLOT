@@ -46,6 +46,6 @@ Script `SV.chrdist.box.R` takes one (or more datasets) bed file, counts the tota
 ### 08 - Binned SV size
 Script `SV.binned.seze.R` takes a bed file and sorts annotated events according to fixed bins (with defined size).
 
-![SV.binned.size.R]()
+![SV.binned.size.R](https://github.com/mattssca/bedPLOT/blob/master/example_figures/SV.binned.size.R.png)
 
 
