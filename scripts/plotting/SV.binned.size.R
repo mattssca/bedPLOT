@@ -33,14 +33,3 @@ SV.binned = ggplot(data = as_tibble(SV_tags), mapping = aes(x=value)) +
   geom_bar(fill=dataset.colour, alpha=0.7) + 
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), axis.title.x = element_blank()) +
   labs(title = plot.title, subtitle = plot.subtitle, x = x.axis.name, y = y.axis.name, fill = "") 
-
-# export plot as png
-ggsave("SV.binned.size.R.png", 
-       SV.binned,
-       path = "example_figures/",
-       limitsize = FALSE,
-       width = 20,
-       height = 11, 
-       units = c("in"),
-       scale = 1, 
-       dpi = 300)
